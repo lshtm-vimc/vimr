@@ -9,17 +9,23 @@ Age-specific fertility rate
 }
 \usage{data("data.agespecificfert")}
 \format{
-  A data frame with 0 observations on the following 2 variables.
+  A data frame with 20580 observations on the following 8 variables.
   \describe{
-    \item{\code{x}}{a numeric vector}
-    \item{\code{y}}{a numeric vector}
+    \item{\code{country_code_numeric}}{a numeric vector}
+    \item{\code{country_code}}{country code}
+    \item{\code{country}}{name of country}
+    \item{\code{age_from}}{starting age}
+    \item{\code{age_to}}{end age}
+    \item{\code{year}}{year}
+    \item{\code{gender}}{gender}
+    \item{\code{value}}{fertility rate}
   }
 }
 \details{
 Dataset containing age-specific fertility rate by country, age range, year and gender
 }
 \source{
-Demographic data from the Vaccine Impact Modelling Consortium
+Demographic data from the Vaccine Impact Modelling Consortium (VIMC)
 }
 \references{
 %%  ~~ possibly secondary sources and usages ~~
