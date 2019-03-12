@@ -1,13 +1,13 @@
-\name{age.specific.fert}
-\alias{age.specific.fert}
+\name{data.agespecificfert}
+\alias{data.agespecificfert}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Age-specific fertility rate
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
 }
-\usage{data("age.specific.fert")}
+\usage{data("data.agespecificfert")}
 \format{
   A data frame with 0 observations on the following 2 variables.
   \describe{
@@ -25,7 +25,7 @@ Demographic data from the Vaccine Impact Modelling Consortium
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(age.specific.fert)
-## maybe str(age.specific.fert) ; plot(age.specific.fert) ...
+data(data.agespecificfert)
+## maybe str(data.agespecificfert) ; plot(data.agespecificfert) ...
 }
 \keyword{datasets}
