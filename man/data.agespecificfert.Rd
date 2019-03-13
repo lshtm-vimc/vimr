@@ -5,7 +5,7 @@
 Age-specific fertility rate
 }
 \description{
-This is a detailed dataset
+Dataset containing age-specific fertility rate by country, age range, year and gender
 }
 \usage{data("data.agespecificfert")}
 \format{
