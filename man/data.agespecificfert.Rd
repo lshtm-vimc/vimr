@@ -5,7 +5,7 @@
 Age-specific fertility rate
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+This is a detailed dataset
 }
 \usage{data("data.agespecificfert")}
 \format{
