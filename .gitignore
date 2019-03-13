@@ -2,3 +2,8 @@
 .Rhistory
 ./data/.Rhistory
 .RData
+.Rhistory
+.Rhistory
+.Rhistory
+*.pper
+.Rproj.user/D19311EE/pcs/source-pane.pper
