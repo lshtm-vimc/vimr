@@ -11,3 +11,13 @@
 .Rproj.user/D19311EE/pcs/source-pane.pper
 .Rhistory
 .Rproj.user/D19311EE/pcs/source-pane.pper
+*.aux
+*.idx
+*.ilg
+*.ind
+*.log
+.Rd2pdf8740/Rd2.out
+*.tex
+*.toc
+*.pper
+.Rproj.user/D19311EE/persistent-state
