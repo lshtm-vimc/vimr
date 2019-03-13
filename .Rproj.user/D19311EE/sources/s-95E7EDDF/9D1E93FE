@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1552475769829.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9D1E93FE",
+    "lastKnownWriteTime" : 1552475865,
+    "last_content_update" : 1552475865551,
+    "path" : "~/GitHub/univacr/R/convertingdatafiles.R",
+    "project_path" : "R/convertingdatafiles.R",
+    "properties" : {
+        "cursorPosition" : "4,58",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
