@@ -482,4 +482,91 @@
 "data.births"
 
 
+#' Disability weights for Pneumococcus (Pneumococcal conjugate vaccine)
+#'
+#' Dataset disability weights for PCV by condition/sequelae
+#'
+#' @usage data.PCV_DALY
+#' @format A data frame with 27 observations on the following 3 variables.
+#' \describe{
+#'   \item{Disease}{disease}
+#'   \item{Condition}{condition/sequelae}
+#'   \item{GBD_2015_mean}{Mean disability weight}
+#' }
+#' @source {General Guidance for DALYs calculation VIMC with input from DOVE 2017-11-24 11:03:46}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_DALY"
 
+
+
+#' Disability weights for Rotavirus
+#'
+#' Dataset disability weights for Rotavirus by condition/sequelae
+#'
+#' @usage data.Rota_DALY
+#' @format A data frame with 3 observations on the following 3 variables.
+#' \describe{
+#'   \item{Disease}{disease}
+#'   \item{Condition}{condition/sequelae}
+#'   \item{GBD_2015_mean}{Mean disability weight}
+#' }
+#' @source {General Guidance for DALYs calculation VIMC with input from DOVE 2017-11-24 11:03:46}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Rota_DALY"
+
+
+
+#' Disability weights for Haemophilus influenzae type B
+#'
+#' Dataset disability weights for Haemophilus influenzae type B by condition/sequelae
+#'
+#' @usage data.Hib_DALY
+#' @format A data frame with 24 observations on the following 3 variables.
+#' \describe{
+#'   \item{Disease}{disease}
+#'   \item{Condition}{condition/sequelae}
+#'   \item{GBD_2015_mean}{Mean disability weight}
+#' }
+#' @source {General Guidance for DALYs calculation VIMC with input from DOVE 2017-11-24 11:03:46}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_DALY"
+
+
+#' Disability weights for Haemophilus influenzae type B
+#'
+#' Dataset containing disability weights for Haemophilus influenzae type B by condition/sequelae (UNIVAC model)
+#'
+#' @usage data.vaccine_schedules
+#' @format A data frame with 195 observations on the following 6 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{BCG}{BCG target age in weeks}
+#'   \item{DTP1}{DTP1 target age in weeks}
+#'   \item{DTP2}{DTP2 target age in weeks}
+#'   \item{DTP3}{DTP3 target age in weeks}
+#'   \item{Meas1}{Measles target age in weeks}
+#' }
+#' @source \url{www.who.int/immunization/monitoring_surveillance/data/schedule_data.xls}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.vaccine_schedules"
+
+
+#' Event rates (cases) for Rotavirus D1 non-severe RVGE
+#'
+#' Dataset containing event rates for rotavirus D1 for non-severe RVGE
+#'
+#' @usage data.rotacases_nonsevereD1
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {Bilcke J. et al. Estimating the Incidence of Symptomatic Rotavirus Infections: A Systematic Review and Meta-Analysis.  PLOS One, June 2009, Volume 4, Issue 6, e6060. Note: random effects model resulted in a global incidence estimate of 0.24 [0.17; 0.34] symptomatic RV infections per person year of observation for children below 2 years of age.  Crudely extrapolating to children aged <5yrs, and assuming minimal incidence aged 2+yrs, gives an under-five incidence rate of 0.10 [0.07 - 0.14] or 10,000 [7,000 - 14,000] per 100,000 per year <5yrs.  Severe incidence rates derived from Fischer-Walker (see source for severe RVGE incidence), were then subtracted to give non-severe RVGE incidence.}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.rotacases_nonsevereD1"
