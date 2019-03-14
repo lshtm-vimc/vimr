@@ -1,3 +1,0 @@
-\contentsline {subsection}{data.agespecificfert}{1}{page.1}
-\contentsline {subsection}{hello}{2}{page.2}
-\contentsline {chapter}{Index}{3}{page.3}
