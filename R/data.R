@@ -605,3 +605,88 @@
 #' incidence of diarrhoea episodes.}
 # @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.rotacases_severeD2"
+
+
+#' Event rates (visits) for Rotavirus D1 non-severe RVGE
+#'
+#' Dataset containing event rates (visits) for rotavirus D1 for non-severe RVGE
+#'
+#' @usage data.rotavisits_nonsevereD1
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {Assume 1 visit for every 2 non-severe cases}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.rotavisits_nonsevereD1"
+
+
+#' Event rates (visits) for Rotavirus D2 severe RVGE
+#'
+#' Dataset containing event rates (visits) for rotavirus D2 for severe RVGE
+#'
+#' @usage data.rotavisits_severeD2
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {Assume 1 visit for every 2 non-severe cases}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.rotavisits_severeD2"
+
+
+#' Event rates (hospital) for Rotavirus D2 severe RVGE
+#'
+#' Dataset containing event rates (hospitals) for rotavirus D2 for severe RVGE
+#'
+#' @usage data.rotahosps_severeD2
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {See Clark et al, TRIVAC, Vaccine, Appendix}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.rotahosps_severeD2"
+
+
+#' Event rates (deaths) for Rotavirus D2 severe RVGE
+#'
+#' Dataset containing event rates (deaths) for rotavirus D2 for severe RVGE
+#'
+#' @usage data.rotadeaths_severeD2
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {See Clark et al, TRIVAC, Vaccine, Appendix}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.rotadeaths_severeD2"
+
