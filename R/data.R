@@ -644,7 +644,8 @@
 #'   \item{Low}{low}
 #'   \item{High}{high}
 #' }
-#' @source {Assume 1 visit for every 2 non-severe cases}
+#' @source {Clark A et al, unpublished update of the IHME/MCEE/WHOCDC estimates. Median/Min/Max 2015 estimates
+#' were used or the estimate for the most recent pre-vax year (using WUENIC 15th July 2017). }
 # @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.rotavisits_severeD2"
 
