@@ -377,3 +377,109 @@
 "data.totalfert"
 
 
+#' Sex ratio at birth
+#'
+#' Dataset containing sex-ratio at birth by country, age range, year and gender
+#'
+#' @usage data.sexratio
+#' @format A data frame with 2940 observations on the following 8 variables.
+#' \describe{
+#'   \item{country_code_numeric}{a numeric vector}
+#'   \item{country_code}{country code}
+#'   \item{country}{name of country}
+#'   \item{age_from}{starting age}
+#'   \item{age_to}{end age}
+#'   \item{year}{year}
+#'   \item{gender}{gender}
+#'   \item{value}{sex-ratio}
+#' }
+#' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.sexratio"
+
+
+#' Crude birth rate (CBR)
+#'
+#' Dataset containing crude birth rate by country, age range, year and gender
+#'
+#' @usage data.crudebirthrate
+#' @format A data frame with 14700 observations on the following 8 variables.
+#' \describe{
+#'   \item{country_code_numeric}{a numeric vector}
+#'   \item{country_code}{country code}
+#'   \item{country}{name of country}
+#'   \item{age_from}{starting age}
+#'   \item{age_to}{end age}
+#'   \item{year}{year}
+#'   \item{gender}{gender}
+#'   \item{value}{crude birth rate}
+#' }
+#' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.crudebirthrate"
+
+
+#' Number of births - quinquennial
+#'
+#' Dataset containing number of births occuring every 5 years by country, age range, year and gender
+#'
+#' @usage data.birthsquinquennial
+#' @format A data frame with 2940 observations on the following 8 variables.
+#' \describe{
+#'   \item{country_code_numeric}{a numeric vector}
+#'   \item{country_code}{country code}
+#'   \item{country}{name of country}
+#'   \item{age_from}{starting age}
+#'   \item{age_to}{end age}
+#'   \item{year}{year}
+#'   \item{gender}{gender}
+#'   \item{value}{number of births occuring every 5 years}
+#' }
+#' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.birthsquinquennial"
+
+
+#' Number of births by age of mother
+#'
+#' Dataset with the number of births by maternal by country, year and gender
+#'
+#' @usage data.birthsbymaternalage
+#' @format A data frame with 20580 observations on the following 8 variables.
+#' \describe{
+#'   \item{country_code_numeric}{a numeric vector}
+#'   \item{country_code}{country code}
+#'   \item{country}{name of country}
+#'   \item{age_from}{starting age}
+#'   \item{age_to}{end age}
+#'   \item{year}{year}
+#'   \item{gender}{gender}
+#'   \item{value}{number of births}
+#' }
+#' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.birthsbymaternalage"
+
+
+#' Number of Births
+#'
+#' Dataset containing number of births by country, age range, year and gender
+#'
+#' @usage data.births
+#' @format A data frame with 14700 observations on the following 8 variables.
+#' \describe{
+#'   \item{country_code_numeric}{a numeric vector}
+#'   \item{country_code}{country code}
+#'   \item{country}{name of country}
+#'   \item{age_from}{starting age}
+#'   \item{age_to}{end age}
+#'   \item{year}{year}
+#'   \item{gender}{gender}
+#'   \item{value}{number of births}
+#' }
+#' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.births"
+
+
+
