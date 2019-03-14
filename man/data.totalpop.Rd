@@ -14,8 +14,10 @@
   \item{year}{year}
   \item{gender}{gender}
   \item{value}{total population}
+}}
+\source{
+{Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
 }
-# @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}}
 \usage{
 data.totalpop
 }

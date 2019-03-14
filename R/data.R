@@ -187,12 +187,12 @@
 "data.pdeathbyage"
 
 
-#' Age-specific fertility rate
+#' Neonatal mortality rate
 #'
-#' Dataset containing age-specific fertility rate by country, age range, year and gender
+#' Dataset containing 28-day neonatal mortality rate by country, age range, year and gender
 #'
-#' @usage data.agespecificfert
-#' @format A data frame with 20580 observations on the following 8 variables.
+#' @usage data.neonatalmortality
+#' @format A data frame with 14700 observations on the following 8 variables.
 #' \describe{
 #'   \item{country_code_numeric}{a numeric vector}
 #'   \item{country_code}{country code}
@@ -201,8 +201,179 @@
 #'   \item{age_to}{end age}
 #'   \item{year}{year}
 #'   \item{gender}{gender}
-#'   \item{value}{fertility rate}
+#'   \item{value}{28-day neonatal mortality rate}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
 # @source \url{https://gco.iarc.fr/today/online-analysis-table}
-"data.agespecificfert"
+"data.neonatalmortality"
+
+
+#' Life expectancy at birth
+#'
+#' Dataset containing life expectancy at birth by country, age range, year and gender
+#'
+#' @usage data.lifeexpectancy
+#' @format A data frame with 1470 observations on the following 8 variables.
+#' \describe{
+#'   \item{country_code_numeric}{a numeric vector}
+#'   \item{country_code}{country code}
+#'   \item{country}{name of country}
+#'   \item{age_from}{starting age}
+#'   \item{age_to}{end age}
+#'   \item{year}{year}
+#'   \item{gender}{gender}
+#'   \item{value}{expected remaining years of life}
+#' }
+#' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.lifeexpectancy"
+
+
+#' Expected remaining years of life
+#'
+#' Dataset containing expected remaining years of life by country, age range, year and gender
+#'
+#' @usage data.remainingyearsoflife
+#' @format A data frame with 64680 observations on the following 8 variables.
+#' \describe{
+#'   \item{country_code_numeric}{a numeric vector}
+#'   \item{country_code}{country code}
+#'   \item{country}{name of country}
+#'   \item{age_from}{starting age}
+#'   \item{age_to}{end age}
+#'   \item{year}{year}
+#'   \item{gender}{gender}
+#'   \item{value}{expected remaining years of life}
+#' }
+#' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.remainingyearsoflife"
+
+
+#' Deaths in total
+#'
+#' Dataset containing total number of deaths by country, age range, year and gender
+#'
+#' @usage data.totaldeaths
+#' @format A data frame with 14700 observations on the following 8 variables.
+#' \describe{
+#'   \item{country_code_numeric}{a numeric vector}
+#'   \item{country_code}{country code}
+#'   \item{country}{name of country}
+#'   \item{age_from}{starting age}
+#'   \item{age_to}{end age}
+#'   \item{year}{year}
+#'   \item{gender}{gender}
+#'   \item{value}{number of deaths}
+#' }
+#' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.totaldeaths"
+
+
+#' Number of deaths by age
+#'
+#' Dataset containing number of deaths by country, age range, year and gender
+#'
+#' @usage data.deathsbyage
+#' @format A data frame with 58800 observations on the following 8 variables.
+#' \describe{
+#'   \item{country_code_numeric}{a numeric vector}
+#'   \item{country_code}{country code}
+#'   \item{country}{name of country}
+#'   \item{age_from}{starting age}
+#'   \item{age_to}{end age}
+#'   \item{year}{year}
+#'   \item{gender}{gender}
+#'   \item{value}{number of deaths}
+#' }
+#' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.deathsbyage"
+
+
+#' Crude death rate
+#'
+#' Dataset containing crude death rate (CDR) by country, age range, year and gender
+#'
+#' @usage data.crudedeathrate
+#' @format A data frame with 14700 observations on the following 8 variables.
+#' \describe{
+#'   \item{country_code_numeric}{a numeric vector}
+#'   \item{country_code}{country code}
+#'   \item{country}{name of country}
+#'   \item{age_from}{starting age}
+#'   \item{age_to}{end age}
+#'   \item{year}{year}
+#'   \item{gender}{gender}
+#'   \item{value}{crude death rate}
+#' }
+#' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.crudedeathrate"
+
+
+
+#' Central death rate
+#'
+#' Dataset containing central death rate by country, age range, year and gender
+#'
+#' @usage data.centraldeathrateASMR
+#' @format A data frame with 55860 observations on the following 8 variables.
+#' \describe{
+#'   \item{country_code_numeric}{a numeric vector}
+#'   \item{country_code}{country code}
+#'   \item{country}{name of country}
+#'   \item{age_from}{starting age}
+#'   \item{age_to}{end age}
+#'   \item{year}{year}
+#'   \item{gender}{gender}
+#'   \item{value}{central death rate}
+#' }
+#' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.centraldeathrateASMR"
+
+
+#' Net migration rate
+#'
+#' Dataset containing net migration rate by country, age range, year and gender
+#'
+#' @usage data.netmigration
+#' @format A data frame with 2940 observations on the following 8 variables.
+#' \describe{
+#'   \item{country_code_numeric}{a numeric vector}
+#'   \item{country_code}{country code}
+#'   \item{country}{name of country}
+#'   \item{age_from}{starting age}
+#'   \item{age_to}{end age}
+#'   \item{year}{year}
+#'   \item{gender}{gender}
+#'   \item{value}{net migration rate}
+#' }
+#' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.netmigration"
+
+
+#' Total fertility rate
+#'
+#' Dataset containing total fertility rate by country, age range, year and gender
+#'
+#' @usage data.totalfert
+#' @format A data frame with 14700 observations on the following 8 variables.
+#' \describe{
+#'   \item{country_code_numeric}{a numeric vector}
+#'   \item{country_code}{country code}
+#'   \item{country}{name of country}
+#'   \item{age_from}{starting age}
+#'   \item{age_to}{end age}
+#'   \item{year}{year}
+#'   \item{gender}{gender}
+#'   \item{value}{total fertility rate}
+#' }
+#' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.totalfert"
+
+
