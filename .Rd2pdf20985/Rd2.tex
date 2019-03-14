@@ -1,0 +1,91 @@
+\documentclass[a4paper]{book}
+\usepackage[times,inconsolata,hyper]{Rd}
+\usepackage{makeidx}
+\usepackage[utf8]{inputenc} % @SET ENCODING@
+% \usepackage{graphicx} % @USE GRAPHICX@
+\makeindex{}
+\begin{document}
+\chapter*{}
+\begin{center}
+{\textbf{\huge Package}}
+\par\bigskip{\large \today}
+\end{center}
+\begin{description}
+\raggedright{}
+\inputencoding{utf8}
+\item[Type]\AsIs{Package}
+\item[Title]\AsIs{UNIVAC decision support model}
+\item[Version]\AsIs{2.0.1}
+\item[Author]\AsIs{Who wrote it}
+\item[Maintainer]\AsIs{The package maintainer }\email{yourself@somewhere.net}\AsIs{}
+\item[Description]\AsIs{UNIVAC is a universal framework for evaluating vaccine policy options in low- and middle-income countries.}
+\item[License]\AsIs{What license is it under?}
+\item[Encoding]\AsIs{UTF-8}
+\item[LazyData]\AsIs{true}
+\end{description}
+\Rdcontents{\R{} topics documented:}
+\inputencoding{utf8}
+\HeaderA{data.agespecificfert}{Age-specific fertility rate}{data.agespecificfert}
+\keyword{datasets}{data.agespecificfert}
+%
+\begin{Description}\relax
+This is a detailed dataset
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+data("data.agespecificfert")
+\end{verbatim}
+\end{Usage}
+%
+\begin{Format}
+A data frame with 20580 observations on the following 8 variables.
+\begin{description}
+
+\item[\code{country\_code\_numeric}] a numeric vector
+\item[\code{country\_code}] country code
+\item[\code{country}] name of country
+\item[\code{age\_from}] starting age
+\item[\code{age\_to}] end age
+\item[\code{year}] year
+\item[\code{gender}] gender
+\item[\code{value}] fertility rate
+
+\end{description}
+
+\end{Format}
+%
+\begin{Details}\relax
+Dataset containing age-specific fertility rate by country, age range, year and gender
+\end{Details}
+%
+\begin{Source}\relax
+Demographic data from the Vaccine Impact Modelling Consortium (VIMC)
+\end{Source}
+%
+\begin{Examples}
+\begin{ExampleCode}
+data(data.agespecificfert)
+## maybe str(data.agespecificfert) ; plot(data.agespecificfert) ...
+\end{ExampleCode}
+\end{Examples}
+\inputencoding{utf8}
+\HeaderA{hello}{Hello, World!}{hello}
+%
+\begin{Description}\relax
+Prints 'Hello, world!'.
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+hello()
+\end{verbatim}
+\end{Usage}
+%
+\begin{Examples}
+\begin{ExampleCode}
+hello()
+\end{ExampleCode}
+\end{Examples}
+\printindex{}
+\end{document}
