@@ -553,7 +553,7 @@
 
 #' Event rates (cases) for Rotavirus D1 non-severe RVGE
 #'
-#' Dataset containing event rates for rotavirus D1 for non-severe RVGE
+#' Dataset containing event rates (cases) for rotavirus D1 for non-severe RVGE
 #'
 #' @usage data.rotacases_nonsevereD1
 #' @format A data frame with 195 observations on the following 8 variables.
@@ -567,6 +567,41 @@
 #'   \item{Low}{low}
 #'   \item{High}{high}
 #' }
-#' @source {Bilcke J. et al. Estimating the Incidence of Symptomatic Rotavirus Infections: A Systematic Review and Meta-Analysis.  PLOS One, June 2009, Volume 4, Issue 6, e6060. Note: random effects model resulted in a global incidence estimate of 0.24 [0.17; 0.34] symptomatic RV infections per person year of observation for children below 2 years of age.  Crudely extrapolating to children aged <5yrs, and assuming minimal incidence aged 2+yrs, gives an under-five incidence rate of 0.10 [0.07 - 0.14] or 10,000 [7,000 - 14,000] per 100,000 per year <5yrs.  Severe incidence rates derived from Fischer-Walker (see source for severe RVGE incidence), were then subtracted to give non-severe RVGE incidence.}
+#' @source {Bilcke J. et al. Estimating the Incidence of Symptomatic Rotavirus Infections:
+#' A Systematic Review and Meta-Analysis.  PLOS One, June 2009, Volume 4, Issue 6, e6060. Note:
+#' random effects model resulted in a global incidence estimate of 0.24 [0.17; 0.34] symptomatic
+#' RV infections per person year of observation for children below 2 years of age.  Crudely extrapolating
+#'  to children aged <5yrs, and assuming minimal incidence aged 2+yrs, gives an under-five incidence rate
+#'   of 0.10 [0.07 - 0.14] or 10,000 [7,000 - 14,000] per 100,000 per year <5yrs.  Severe incidence rates
+#'   derived from Fischer-Walker (see source for severe RVGE incidence), were then subtracted to give non-severe
+#'   RVGE incidence.}
 # @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.rotacases_nonsevereD1"
+
+
+#' Event rates (cases) for Rotavirus D2 severe RVGE
+#'
+#' Dataset containing event rates (cases) for rotavirus D2 for severe RVGE
+#'
+#' @usage data.rotacases_severeD2
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {Fischer-Walker C. et al, Table 1: Global and regional burden of diarrhoea and pneumonia per
+#' year in children aged 0–4 years, by WHO region.  Global burden of childhood pneumonia and diarrhoea.
+#' Lancet 2013; 381: 1405–16.  Notes: Episodes per child per year <5yrs (2010) by WHO region were multiplied by
+#' the proportion of episodes that were severe by WHO region (approximately 2%).  These were further multiplied
+#' by the rotavirus-positive proportion <5yrs by WHO region, reported among hospitalised diarrhoea cases in CHERG
+#' (Lanata C. et al, Global Causes of Diarrheal Disease Mortality in Children <5 Years of Age: A Systematic Review.
+#' PLOS One. September 2013, Volume 8, Issue 9, e72788).  The uncertainty range only reflects uncertainty in the
+#' incidence of diarrhoea episodes.}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.rotacases_severeD2"

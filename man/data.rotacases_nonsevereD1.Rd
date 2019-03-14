@@ -16,12 +16,19 @@
   \item{High}{high}
 }}
 \source{
-{Bilcke J. et al. Estimating the Incidence of Symptomatic Rotavirus Infections: A Systematic Review and Meta-Analysis.  PLOS One, June 2009, Volume 4, Issue 6, e6060. Note: random effects model resulted in a global incidence estimate of 0.24 [0.17; 0.34] symptomatic RV infections per person year of observation for children below 2 years of age.  Crudely extrapolating to children aged <5yrs, and assuming minimal incidence aged 2+yrs, gives an under-five incidence rate of 0.10 [0.07 - 0.14] or 10,000 [7,000 - 14,000] per 100,000 per year <5yrs.  Severe incidence rates derived from Fischer-Walker (see source for severe RVGE incidence), were then subtracted to give non-severe RVGE incidence.}
+{Bilcke J. et al. Estimating the Incidence of Symptomatic Rotavirus Infections:
+A Systematic Review and Meta-Analysis.  PLOS One, June 2009, Volume 4, Issue 6, e6060. Note:
+random effects model resulted in a global incidence estimate of 0.24 [0.17; 0.34] symptomatic
+RV infections per person year of observation for children below 2 years of age.  Crudely extrapolating
+ to children aged <5yrs, and assuming minimal incidence aged 2+yrs, gives an under-five incidence rate
+  of 0.10 [0.07 - 0.14] or 10,000 [7,000 - 14,000] per 100,000 per year <5yrs.  Severe incidence rates
+  derived from Fischer-Walker (see source for severe RVGE incidence), were then subtracted to give non-severe
+  RVGE incidence.}
 }
 \usage{
 data.rotacases_nonsevereD1
 }
 \description{
-Dataset containing event rates for rotavirus D1 for non-severe RVGE
+Dataset containing event rates (cases) for rotavirus D1 for non-severe RVGE
 }
 \keyword{datasets}
