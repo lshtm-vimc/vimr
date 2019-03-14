@@ -1,5 +1,3 @@
-# data.R - This file includes documentation of datasets.
-
 #' 5-year prevalence of cervical cancer
 #'
 #' A dataset containing the 5-year prevalence (proportion) of cervical cancer in 185 countries, as reported by
