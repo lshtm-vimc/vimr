@@ -16,50 +16,51 @@ knitr::opts_chunk$set(
 )
 ```
 
-Vignettes are long form documentation commonly included in packages. Because they are part of the distribution of the package, they need to be as compact as possible. The `html_vignette` output type provides a custom style sheet (and tweaks some options) to ensure that the resulting html is as small as possible. The `html_vignette` format:
+## UNIVAC decision support model for vaccine policy
+UNIVAC is a universal framework for evaluating vaccine policy options in low- and middle-income countries. This R package (univacr) is based of the spreadsheet-based tool that is accessible at https://www.paho.org/provac-toolkit/.
 
-- Never uses retina figures
-- Has a smaller default figure size
-- Uses a custom CSS stylesheet instead of the default Twitter Bootstrap style
+### Vaccine Impact Modelling using UNIVAC
 
-## Vignette Info
+* Estimate the health impact and cost-effectiveness of vaccination.
+* Hib, pneumococcal and rotavirus vacccination can be separately analysed.
 
-Note the various macros within the `vignette` section of the metadata block above. These are required in order to instruct R how to build the vignette. Note that you should change the `title` field and the `\VignetteIndexEntry` to match the title of your vignette.
+Please see below for examples of vaccine impact modelling for each of the vaccines.
 
-## Styles
+### Hib vaccine 
 
-The `html_vignette` template includes a basic CSS theme. To override this theme you can specify your own CSS in the document metadata as follows:
 
-    output: 
-      rmarkdown::html_vignette:
-        css: mystyles.css
+### Pneumococcal vaccine
 
-## Figures
 
-The figure sizes have been customised so that you can easily put two images side-by-side. 
+### Rotavirus vaccine
 
-```{r, fig.show='hold'}
-plot(1:10)
-plot(10:1)
+
+### Reference manual
+Refer to the reference manual 'univacr.pdf' for information on the datasets and functions included in this package. 
+
+```{r echo=T, eval=F}
+# load package
+library (univacr)
+
+# list all datasets in this package
+data (package="univacr")
+
+# view documentation of a specific dataset 
+# example: dataset for under 5 mortality rate
+?data.u5mortality
+
+# view a specific dataset
+data.u5mortality
+
+# view documentation for a specific function
+# example: RunCohort function
+?RunCohort
+
+# view source code of a specific function
+RunCohort
 ```
 
-You can enable figure captions by `fig_caption: yes` in YAML:
 
-    output:
-      rmarkdown::html_vignette:
-        fig_caption: yes
 
-Then you can use the chunk option `fig.cap = "Your figure caption."` in **knitr**.
 
-## More Examples
 
-You can write math expressions, e.g. $Y = X\beta + \epsilon$, footnotes^[A footnote here.], and tables, e.g. using `knitr::kable()`.
-
-```{r, echo=FALSE, results='asis'}
-knitr::kable(head(mtcars, 10))
-```
-
-Also a quote using `>`:
-
-> "He who gives up [code] safety for [code] speed deserves neither."
-([via](https://twitter.com/hadleywickham/status/504368538874703872))
