@@ -691,3 +691,74 @@
 # @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.rotavirus_severe_RVGE_deaths"
 
+
+#' Event rates (cases) for Rotavirus intussusception
+#'
+#' Dataset containing event rates (cases) for rotavirus intussusception
+#'
+#' @usage data.rotavirus_intussusception_cases
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {Clark et al, unpublished update of the Jiang literature review.
+#' Medians of available country datasets within countries were used. For countries without data,
+#' the median for all datasets in the same WHO region was used. This was a better indicator of incidence
+#'  than U5MR quintile e.g. WPRO has uniquely high incidence.}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.rotavirus_intussusception_cases"
+
+
+#' Event rates (hosps) for Rotavirus intussusception
+#'
+#' Dataset containing event rates (hosps) for rotavirus intussusception
+#'
+#' @usage data.rotavirus_intussusception_hosps
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {Clark et al, unpublished update of the Jiang literature review.
+#' Medians of available country datasets within countries were used. For countries without data,
+#' the median for all datasets in the same WHO region was used. This was a better indicator of incidence
+#'  than U5MR quintile e.g. WPRO has uniquely high incidence.}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.rotavirus_intussusception_hosps"
+
+
+#' Event rates (deaths) for Rotavirus intussusception
+#'
+#' Dataset containing event rates (deaths) for rotavirus intussusception
+#'
+#' @usage data.rotavirus_intussusception_deaths
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {Clark et al, unpublished update of the Jiang literature review.
+#' Medians of available country datasets within countries were used. For countries without data,
+#' the median for all datasets in the same WHO region was used. This was a better indicator of incidence
+#'  than U5MR quintile e.g. WPRO has uniquely high incidence.}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.rotavirus_intussusception_deaths"
