@@ -58,6 +58,14 @@ data.u5mortality
 
 # view source code of a specific function
 RunCohort
+
+# list all datasets and functions included in this package
+ls ("package:univacr")
+
+# list vignettes included in this package 
+vignette (package="univacr")
+
+
 ```
 
 
