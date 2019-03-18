@@ -756,9 +756,358 @@
 #'   \item{Low}{low}
 #'   \item{High}{high}
 #' }
-#' @source {Clark et al, unpublished update of the Jiang literature review.
-#' Medians of available country datasets within countries were used. For countries without data,
-#' the median for all datasets in the same WHO region was used. This was a better indicator of incidence
-#'  than U5MR quintile e.g. WPRO has uniquely high incidence.}
+#' @source {Krauss, unpublished update of the Jiang review, with adjustments by Clark to account for access to care.
+#' 100% access assumed in Low/Very low mortality settings, DTP1 coverage used for access in other settings, with CFR
+#' of 100% for children without access.}
 # @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.rotavirus_intussusception_deaths"
+
+
+
+#' Event rates (cases) for Haemophilus influenzae type b (Hib): Hib pneumonia (non-severe)
+#'
+#' Dataset containing event rates (cases) for Hib pneumonia (non-severe)
+#'
+#' @usage data.Hib_nonsevere_Hibpneumo_cases
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {MCEE (Wahl et al 2017)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_nonsevere_Hibpneumo_cases"
+
+
+
+#' Event rates (cases) for Haemophilus influenzae type b (Hib): Hib pneumonia (severe)
+#'
+#' Dataset containing event rates (cases) for Hib pneumonia (severe)
+#'
+#' @usage data.Hib_severe_Hibpneumo_cases
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {MCEE (Wahl et al 2017)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_severe_Hibpneumo_cases"
+
+
+
+#' Event rates (cases) for Haemophilus influenzae type b (Hib): Hib meningitis
+#'
+#' Dataset containing event rates (cases) for Hib meningitis
+#'
+#' @usage data.Hib_Hibmeningitis_cases
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {MCEE (Wahl et al 2017)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_Hibmeningitis_cases"
+
+
+
+#' Event rates (cases) for Haemophilus influenzae type b (Hib): Hib NPNM
+#'
+#' Dataset containing event rates (cases) for Hib NPNM
+#'
+#' @usage data.Hib_HibNPNM_cases
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {MCEE (Wahl et al 2017)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_HibNPNM_cases"
+
+
+
+#' Event rates (cases) for Haemophilus influenzae type b (Hib): Hib meningitis sequelae
+#'
+#' Dataset containing event rates (cases) for Hib meningitis sequelae
+#'
+#' @usage data.Hib_Hibmeningitissequalae_cases
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {15% of survivors (Edmond et al, Lancet ID 2010)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_Hibmeningitissequalae_cases"
+
+
+
+#' Event rates (visits) for Haemophilus influenzae type b (Hib): Hib pneumonia (non-severe)
+#'
+#' Dataset containing event rates (visits) for Hib pneumonia (non-severe)
+#'
+#' @usage data.Hib_nonsevere_Hibpneumo_visits
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_nonsevere_Hibpneumo_visits"
+
+
+#' Event rates (visits) for Haemophilus influenzae type b (Hib): Hib pneumonia (visits)
+#'
+#' Dataset containing event rates (visits) for Hib pneumonia (visits)
+#'
+#' @usage data.Hib_severe_Hibpneumo_visits
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_severe_Hibpneumo_visits"
+
+
+
+#' Event rates (visits) for Haemophilus influenzae type b (Hib): Hib meningitis
+#'
+#' Dataset containing event rates (visits) for Hib meningitis
+#'
+#' @usage data.Hib_Hibmeningitis_visits
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_Hibmeningitis_visits"
+
+
+
+#' Event rates (visits) for Haemophilus influenzae type b (Hib): Hib NPNM
+#'
+#' Dataset containing event rates (visits) for Hib NPNM
+#'
+#' @usage data.Hib_HibNPNM_visits
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_HibNPNM_visits"
+
+
+
+#' Event rates (visits) for Haemophilus influenzae type b (Hib): Hib meningitis sequelae
+#'
+#' Dataset containing event rates (visits) for Hib meningitis sequelae
+#'
+#' @usage data.Hib_Hibmeningitissequalae_visits
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_Hibmeningitissequalae_visits"
+
+
+
+
+#' Event rates (hosps) for Haemophilus influenzae type b (Hib): Hib pneumonia (severe)
+#'
+#' Dataset containing event rates (hosps) for Hib pneumonia (severe)
+#'
+#' @usage data.Hib_severe_Hibpneumo_hosps
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_severe_Hibpneumo_hosps"
+
+
+
+#' Event rates (hosps) for Haemophilus influenzae type b (Hib): Hib meningitis
+#'
+#' Dataset containing event rates (hosps) for Hib meningitis
+#'
+#' @usage data.Hib_Hibmeningitis_hosps
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_Hibmeningitis_hosps"
+
+
+#' Event rates (hosps) for Haemophilus influenzae type b (Hib): Hib NPNM
+#'
+#' Dataset containing event rates (hosps) for Hib NPNM
+#'
+#' @usage data.Hib_HibNPNM_hosps
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_HibNPNM_hosps"
+
+
+
+#' Event rates (deaths) for Haemophilus influenzae type b (Hib): Hib pneumonia (severe)
+#'
+#' Dataset containing event rates (deaths) for Hib pneumonia (severe)
+#'
+#' @usage data.Hib_severe_Hibpneumo_deaths
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {MCEE (Wahl et al 2017)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_severe_Hibpneumo_deaths"
+
+
+
+#' Event rates (deaths) for Haemophilus influenzae type b (Hib): Hib meningitis
+#'
+#' Dataset containing event rates (deaths) for Hib meningitis
+#'
+#' @usage data.Hib_Hibmeningitis_deaths
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {MCEE (Wahl et al 2017)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_Hibmeningitis_deaths"
+
+
+#' Event rates (deaths) for Haemophilus influenzae type b (Hib): Hib NPNM
+#'
+#' Dataset containing event rates (deaths) for Hib NPNM
+#'
+#' @usage data.Hib_HibNPNM_deaths
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {MCEE (Wahl et al 2017)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.Hib_HibNPNM_deaths"
