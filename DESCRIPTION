@@ -1,15 +1,16 @@
 Package: univacr
 Title: UNIVAC -- Vaccine policy decision support model
-Version: 2.0.1
-Author: Modelling and Economic Evaluation of Vaccines group, LSHTM
-Maintainer: http://meev.lshtm.ac.uk/
+Version: 0.0.1
+Author: Modelling and Economic Evaluation of Vaccines group, LSHTM (http://meev.lshtm.ac.uk/)
 Description: UNIVAC is a universal framework for evaluating vaccine policy options in low- and middle-income countries.
 Depends: R (>= 3.4.3)
-Imports: data.table, foreach
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
-Suggests: knitr,
-    rmarkdown
 VignetteBuilder: knitr
+Imports: 
+    data.table,
+    foreach,
+    knitr,
+    rmarkdown
