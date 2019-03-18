@@ -551,11 +551,11 @@
 "data.vaccine_schedules"
 
 
-#' Event rates (cases) for Rotavirus D1 non-severe RVGE
+#' Event rates (cases) for Rotavirus non-severe RVGE
 #'
 #' Dataset containing event rates (cases) for rotavirus D1 for non-severe RVGE
 #'
-#' @usage data.rotacases_nonsevereD1
+#' @usage data.rotavirus_nonsevere_RVGE_cases
 #' @format A data frame with 195 observations on the following 8 variables.
 #' \describe{
 #'   \item{Country}{country}
@@ -576,14 +576,14 @@
 #'   derived from Fischer-Walker (see source for severe RVGE incidence), were then subtracted to give non-severe
 #'   RVGE incidence.}
 # @source \url{https://gco.iarc.fr/today/online-analysis-table}
-"data.rotacases_nonsevereD1"
+"data.rotavirus_nonsevere_RVGE_cases"
 
 
-#' Event rates (cases) for Rotavirus D2 severe RVGE
+#' Event rates (cases) for Rotavirus severe RVGE
 #'
 #' Dataset containing event rates (cases) for rotavirus D2 for severe RVGE
 #'
-#' @usage data.rotacases_severeD2
+#' @usage data.rotavirus_severe_RVGE_cases
 #' @format A data frame with 195 observations on the following 8 variables.
 #' \describe{
 #'   \item{Country}{country}
@@ -604,14 +604,14 @@
 #' PLOS One. September 2013, Volume 8, Issue 9, e72788).  The uncertainty range only reflects uncertainty in the
 #' incidence of diarrhoea episodes.}
 # @source \url{https://gco.iarc.fr/today/online-analysis-table}
-"data.rotacases_severeD2"
+"data.rotavirus_severe_RVGE_cases"
 
 
-#' Event rates (visits) for Rotavirus D1 non-severe RVGE
+#' Event rates (visits) for Rotavirus non-severe RVGE
 #'
 #' Dataset containing event rates (visits) for rotavirus D1 for non-severe RVGE
 #'
-#' @usage data.rotavisits_nonsevereD1
+#' @usage data.rotavirus_nonsevere_RVGE_visits
 #' @format A data frame with 195 observations on the following 8 variables.
 #' \describe{
 #'   \item{Country}{country}
@@ -625,14 +625,14 @@
 #' }
 #' @source {Assume 1 visit for every 2 non-severe cases}
 # @source \url{https://gco.iarc.fr/today/online-analysis-table}
-"data.rotavisits_nonsevereD1"
+"data.rotavirus_nonsevere_RVGE_visits"
 
 
-#' Event rates (visits) for Rotavirus D2 severe RVGE
+#' Event rates (visits) for Rotavirus severe RVGE
 #'
-#' Dataset containing event rates (visits) for rotavirus D2 for severe RVGE
+#' Dataset containing event rates (visits) for rotavirus for severe RVGE
 #'
-#' @usage data.rotavisits_severeD2
+#' @usage data.rotavirus_severe_RVGE_visits
 #' @format A data frame with 195 observations on the following 8 variables.
 #' \describe{
 #'   \item{Country}{country}
@@ -647,14 +647,14 @@
 #' @source {Clark A et al, unpublished update of the IHME/MCEE/WHOCDC estimates. Median/Min/Max 2015 estimates
 #' were used or the estimate for the most recent pre-vax year (using WUENIC 15th July 2017). }
 # @source \url{https://gco.iarc.fr/today/online-analysis-table}
-"data.rotavisits_severeD2"
+"data.rotavirus_severe_RVGE_visits"
 
 
-#' Event rates (hospital) for Rotavirus D2 severe RVGE
+#' Event rates (hospital) for Rotavirus severe RVGE
 #'
-#' Dataset containing event rates (hospitals) for rotavirus D2 for severe RVGE
+#' Dataset containing event rates (hospitals) for rotavirus for severe RVGE
 #'
-#' @usage data.rotahosps_severeD2
+#' @usage data.rotavirus_severe_RVGE_hosps
 #' @format A data frame with 195 observations on the following 8 variables.
 #' \describe{
 #'   \item{Country}{country}
@@ -668,14 +668,14 @@
 #' }
 #' @source {See Clark et al, TRIVAC, Vaccine, Appendix}
 # @source \url{https://gco.iarc.fr/today/online-analysis-table}
-"data.rotahosps_severeD2"
+"data.rotavirus_severe_RVGE_hosps"
 
 
-#' Event rates (deaths) for Rotavirus D2 severe RVGE
+#' Event rates (deaths) for Rotavirus severe RVGE
 #'
-#' Dataset containing event rates (deaths) for rotavirus D2 for severe RVGE
+#' Dataset containing event rates (deaths) for rotavirus for severe RVGE
 #'
-#' @usage data.rotadeaths_severeD2
+#' @usage data.rotavirus_severe_RVGE_deaths
 #' @format A data frame with 195 observations on the following 8 variables.
 #' \describe{
 #'   \item{Country}{country}
@@ -689,5 +689,5 @@
 #' }
 #' @source {See Clark et al, TRIVAC, Vaccine, Appendix}
 # @source \url{https://gco.iarc.fr/today/online-analysis-table}
-"data.rotadeaths_severeD2"
+"data.rotavirus_severe_RVGE_deaths"
 
