@@ -1111,3 +1111,466 @@
 #' @source {MCEE (Wahl et al 2017)}
 # @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.Hib_HibNPNM_deaths"
+
+
+#' Event rates (cases) for Streptococcus pneumoniae (Sp): Sp acute otitis media
+#'
+#' Dataset containing event rates (cases) for Sp acute otitis media
+#'
+#' @usage data.PCV_sp_acuteotitismedia_cases
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {Monasta L et al, & CDC}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_sp_acuteotitismedia_cases"
+
+
+
+#' Event rates (cases) for Streptococcus pneumoniae (Sp): Sp pneumonia (non-severe)
+#'
+#' Dataset containing event rates (cases) for Sp pneumonia (non-severe)
+#'
+#' @usage data.PCV_nonsevere_Sppneumo_cases
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {MCEE (Wahl et al 2017)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_nonsevere_Sppneumo_cases"
+
+
+
+#' Event rates (cases) for Streptococcus pneumoniae (Sp): Sp pneumonia (severe)
+#'
+#' Dataset containing event rates (cases) for Sp pneumonia (severe)
+#'
+#' @usage data.PCV_severe_Sppneumo_cases
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {MCEE (Wahl et al 2017)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_severe_Sppneumo_cases"
+
+
+
+#' Event rates (cases) for Streptococcus pneumoniae (Sp): Sp meningitis
+#'
+#' Dataset containing event rates (cases) for Sp meningitis
+#'
+#' @usage data.PCV_Spmeningitis_cases
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {MCEE (Wahl et al 2017)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_Spmeningitis_cases"
+
+
+
+
+#' Event rates (cases) for Streptococcus pneumoniae (Sp): Sp NPNM (non-severe)
+#'
+#' Dataset containing event rates (cases) for Sp NPNM (non-severe)
+#'
+#' @usage data.PCV_nonsevere_SpNPNM_cases
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {MCEE (Wahl et al 2017)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_nonsevere_SpNPNM_cases"
+
+
+
+#' Event rates (cases) for Streptococcus pneumoniae (Sp): Sp NPNM (severe)
+#'
+#' Dataset containing event rates (cases) for Sp NPNM (severe)
+#'
+#' @usage data.PCV_severe_SpNPNM_cases
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {MCEE (Wahl et al 2017)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_severe_SpNPNM_cases"
+
+
+#' Event rates (cases) for Streptococcus pneumoniae (Sp): Sp meningitis sequelae
+#'
+#' Dataset containing event rates (cases) for Sp meningitis sequelae
+#'
+#' @usage data.PCV_Spmeningitissequelae_cases
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {35% of survivors (Edmond et al, Lancet ID 2010)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_Spmeningitissequelae_cases"
+
+
+
+  #' Event rates (visits) for Streptococcus pneumoniae (Sp): Sp acute otitis media
+  #'
+  #' Dataset containing event rates (visits) for Sp acute otitis media
+  #'
+  #' @usage data.PCV_sp_acuteotitismedia_visits
+  #' @format A data frame with 195 observations on the following 8 variables.
+  #' \describe{
+  #'   \item{Country}{country}
+  #'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_sp_acuteotitismedia_visits"
+
+
+
+#' Event rates (visits) for Streptococcus pneumoniae (Sp): Sp pneumonia (non-severe)
+#'
+#' Dataset containing event rates (visits) for Sp pneumonia (non-severe)
+#'
+#' @usage data.PCV_nonsevere_Sppneumo_visits
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_nonsevere_Sppneumo_visits"
+
+
+
+#' Event rates (visits) for Streptococcus pneumoniae (Sp): Sp pneumonia (severe)
+#'
+#' Dataset containing event rates (visits) for Sp pneumonia (severe)
+#'
+#' @usage data.PCV_severe_Sppneumo_visits
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_severe_Sppneumo_visits"
+
+
+
+#' Event rates (visits) for Streptococcus pneumoniae (Sp): Sp meningitis
+#'
+#' Dataset containing event rates (visits) for Sp meningitis
+#'
+#' @usage data.PCV_Spmeningitis_visits
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_Spmeningitis_visits"
+
+
+
+
+#' Event rates (visits) for Streptococcus pneumoniae (Sp): Sp NPNM (non-severe)
+#'
+#' Dataset containing event rates (visits) for Sp NPNM (non-severe)
+#'
+#' @usage data.PCV_nonsevere_SpNPNM_visits
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_nonsevere_SpNPNM_visits"
+
+
+
+#' Event rates (visits) for Streptococcus pneumoniae (Sp): Sp NPNM (severe)
+#'
+#' Dataset containing event rates (visits) for Sp NPNM (severe)
+#'
+#' @usage data.PCV_severe_SpNPNM_visits
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_severe_SpNPNM_visits"
+
+
+#' Event rates (visits) for Streptococcus pneumoniae (Sp): Sp meningitis sequelae
+#'
+#' Dataset containing event rates (visits) for Sp meningitis sequelae
+#'
+#' @usage data.PCV_Spmeningitissequelae_visits
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_Spmeningitissequelae_visits"
+
+
+
+
+  #' Event rates (hosps) for Streptococcus pneumoniae (Sp): Sp pneumonia (severe)
+  #'
+  #' Dataset containing event rates (hosps) for Sp pneumonia (severe)
+  #'
+  #' @usage data.PCV_severe_Sppneumo_hosps
+  #' @format A data frame with 195 observations on the following 8 variables.
+  #' \describe{
+  #'   \item{Country}{country}
+  #'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_severe_Sppneumo_hosps"
+
+
+
+#' Event rates (hosps) for Streptococcus pneumoniae (Sp): Sp meningitis
+#'
+#' Dataset containing event rates (hosps) for Sp meningitis
+#'
+#' @usage data.PCV_Spmeningitis_hosps
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_Spmeningitis_hosps"
+
+
+
+
+#' Event rates (hosps) for Streptococcus pneumoniae (Sp): Sp NPNM (non-severe)
+#'
+#' Dataset containing event rates (hosps) for Sp NPNM (non-severe)
+#'
+#' @usage data.PCV_nonsevere_SpNPNM_hosps
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_nonsevere_SpNPNM_hosps"
+
+
+
+#' Event rates (hosps) for Streptococcus pneumoniae (Sp): Sp NPNM (severe)
+#'
+#' Dataset containing event rates (hosps) for Sp NPNM (severe)
+#'
+#' @usage data.PCV_severe_SpNPNM_hosps
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {DHS/MICS stratum}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_severe_SpNPNM_hosps"
+
+
+
+#' Event rates (deaths) for Streptococcus pneumoniae (Sp): Sp pneumonia (severe)
+#'
+#' Dataset containing event rates (deaths) for Sp pneumonia (severe)
+#'
+#' @usage data.PCV_severe_Sppneumo_deaths
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {MCEE (Wahl et al 2017)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_severe_Sppneumo_deaths"
+
+
+
+#' Event rates (deaths) for Streptococcus pneumoniae (Sp): Sp meningitis
+#'
+#' Dataset containing event rates (deaths) for Sp meningitis
+#'
+#' @usage data.PCV_Spmeningitis_deaths
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {MCEE (Wahl et al 2017)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_Spmeningitis_deaths"
+
+
+
+#' Event rates (deaths) for Streptococcus pneumoniae (Sp): Sp NPNM (severe)
+#'
+#' Dataset containing event rates (deaths) for Sp NPNM (severe)
+#'
+#' @usage data.PCV_severe_SpNPNM_deaths
+#' @format A data frame with 195 observations on the following 8 variables.
+#' \describe{
+#'   \item{Country}{country}
+#'   \item{WHO region}{WHO region}
+#'   \item{WHO region2}{WHO region country code}
+#'   \item{Income}{income level}
+#'   \item{Age}{age}
+#'   \item{Mid}{mid}
+#'   \item{Low}{low}
+#'   \item{High}{high}
+#' }
+#' @source {MCEE (Wahl et al 2017)}
+# @source \url{https://gco.iarc.fr/today/online-analysis-table}
+"data.PCV_severe_SpNPNM_deaths"
