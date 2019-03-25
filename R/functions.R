@@ -13,7 +13,7 @@ RegisterBatchDataGavi <- function (diseaseburden_template, gavi_coverage) {
 
 }
 
-RegisterBatchDataGavi(diseaseburden_template = diseaseburden_template, gavi_coverage = gavi_coverage)
+# RegisterBatchDataGavi(diseaseburden_template = diseaseburden_template, gavi_coverage = gavi_coverage)
 
 ###############################################################################################################################
 ###############################################################################################################################
