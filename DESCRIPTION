@@ -1,8 +1,12 @@
 Package: vimr
-Title: VIMr -- Vaccine Impact Model
+Title: vimr -- Vaccine Impact Model
 Version: 0.0.1
 Author: Modelling and Economic Evaluation of Vaccines group, LSHTM (http://meev.lshtm.ac.uk/)
-Description: "vimr" is a vaccine impact model (R package) for estimating the health impact of vaccination programmes at the national level for a given set of countries.
+Description: 'vimr' is a vaccine impact model (R package) for estimating the health impact of 
+	vaccination programmes at the national level for a given set of countries. This R package 
+	is based of the spreadsheet-based tool (UNIVAC) which is a universal framework for evaluating 
+	vaccine policy options in low- and middle-income countries, and is accessible at 
+	https://www.paho.org/provac-toolkit/.
 Depends: R (>= 3.4.3)
 License: GPL-3
 Encoding: UTF-8
