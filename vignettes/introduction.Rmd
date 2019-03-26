@@ -1,5 +1,5 @@
 ---
-title: "UNIVAC"
+title: "vimr"
 author: "LSHTM"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
@@ -16,13 +16,14 @@ knitr::opts_chunk$set(
 )
 ```
 
-## UNIVAC decision support model for vaccine policy
-UNIVAC is a universal framework for evaluating vaccine policy options in low- and middle-income countries. This R package (univacr) is based of the spreadsheet-based tool that is accessible at https://www.paho.org/provac-toolkit/.
+## vimr - Vaccine Impact Model
+'vimr' is a vaccine impact model (R package) for estimating the health impact of vaccination programmes at the national level for a given set of countries. This R package is based of the spreadsheet-based tool (UNIVAC) which is a universal framework for evaluating vaccine policy options in low- and middle-income countries, and is accessible at https://www.paho.org/provac-toolkit/.
 
-### Vaccine Impact Modelling using UNIVAC
 
-* Estimate the health impact and cost-effectiveness of vaccination.
+### Vaccine Impact Modelling using vimr
+* Estimate the health impact of vaccination at the national level.
 * Hib, pneumococcal and rotavirus vacccination can be separately analysed.
+* Multiple countries can be analysed and vaccine impact estimates are generated for each country.
 
 Please see below for examples of vaccine impact modelling for each of the vaccines.
 
@@ -36,14 +37,14 @@ Please see below for examples of vaccine impact modelling for each of the vaccin
 
 
 ### Reference manual
-Refer to the reference manual 'univacr.pdf' for information on the datasets and functions included in this package. 
+Refer to the reference manual 'vimr.pdf' for information on the datasets and functions included in this package. 
 
 ```{r echo=T, eval=F}
 # load package
-library (univacr)
+library (vimr)
 
 # list all datasets in this package
-data (package="univacr")
+data (package="vimr")
 
 # view documentation of a specific dataset 
 # example: dataset for under 5 mortality rate
@@ -60,10 +61,10 @@ data.u5mortality
 RunCohort
 
 # list all datasets and functions included in this package
-ls ("package:univacr")
+ls ("package:vimr")
 
 # list vignettes included in this package 
-vignette (package="univacr")
+vignette (package="vimr")
 
 
 ```

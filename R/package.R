@@ -14,7 +14,7 @@
 #' \describe{
 #'   \item{Estimate the health impact of vaccination at the national level.}
 #'   \item{Hib, pneumococcal and rotavirus vacccination can be separately analysed.}
-#'   \item{Multiple countries can be analysed and results are generated for each country.}
+#'   \item{Multiple countries can be analysed and vaccine impact estimates are generated for each country.}
 #' }
 #'
 #' @docType package
