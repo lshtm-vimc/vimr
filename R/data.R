@@ -17,7 +17,6 @@
 #'   \item{value}{fertility rate}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.agespecificfert"
 
 
@@ -38,7 +37,6 @@
 #'   \item{value}{total population}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.totalpop"
 
 
@@ -59,7 +57,6 @@
 #'   \item{value}{population quinquennial 5-year time and age}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.quinquennialpop"
 
 #' Interpolated population (1-year time and age)
@@ -79,7 +76,6 @@
 #'   \item{value}{population interpolated 1-year time and age}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.interpolatedpop"
 
 
@@ -100,7 +96,6 @@
 #'   \item{value}{growth rate}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.growthrate"
 
 #' Under 5 mortality rate
@@ -120,7 +115,6 @@
 #'   \item{value}{fertility rate}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.u5mortality"
 
 
@@ -141,7 +135,6 @@
 #'   \item{value}{under 1 mortality rate}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.u1mortality"
 
 
@@ -162,7 +155,6 @@
 #'   \item{value}{number of survivors}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.survival"
 
 
@@ -183,7 +175,6 @@
 #'   \item{value}{probability of dying}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.pdeathbyage"
 
 
@@ -204,7 +195,6 @@
 #'   \item{value}{28-day neonatal mortality rate}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.neonatalmortality"
 
 
@@ -225,7 +215,6 @@
 #'   \item{value}{expected remaining years of life}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.lifeexpectancy"
 
 
@@ -246,7 +235,6 @@
 #'   \item{value}{expected remaining years of life}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.remainingyearsoflife"
 
 
@@ -267,7 +255,6 @@
 #'   \item{value}{number of deaths}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.totaldeaths"
 
 
@@ -288,7 +275,6 @@
 #'   \item{value}{number of deaths}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.deathsbyage"
 
 
@@ -309,7 +295,6 @@
 #'   \item{value}{crude death rate}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.crudedeathrate"
 
 
@@ -331,7 +316,6 @@
 #'   \item{value}{central death rate}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.centraldeathrateASMR"
 
 
@@ -352,7 +336,6 @@
 #'   \item{value}{net migration rate}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.netmigration"
 
 
@@ -373,7 +356,6 @@
 #'   \item{value}{total fertility rate}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.totalfert"
 
 
@@ -394,7 +376,6 @@
 #'   \item{value}{sex-ratio}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.sexratio"
 
 
@@ -415,7 +396,6 @@
 #'   \item{value}{crude birth rate}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.crudebirthrate"
 
 
@@ -436,7 +416,6 @@
 #'   \item{value}{number of births occuring every 5 years}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.birthsquinquennial"
 
 
@@ -457,7 +436,6 @@
 #'   \item{value}{number of births}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.birthsbymaternalage"
 
 
@@ -478,8 +456,33 @@
 #'   \item{value}{number of births}
 #' }
 #' @source {Demographic data from the Vaccine Impact Modelling Consortium (VIMC)}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.births"
+
+
+
+#' Disability weights for RV, HPV, Hib and Sp
+#'
+#' Data: Disability weights for Rotavirus (RV), Human papillomavirus (HPV),
+#' Haemophilus influenzae type b (Hib) and Streptococcus pneumoniae (Sp).
+#' The weights are measured on a scale from 0 to 1, where 0 equals a state of
+#' full health and 1 equals death.
+#'
+#' @usage data.disabilityWeights
+#' @format A data table with 19 observations on the following 6 variables.
+#' \describe{
+#'   \item{Disease}{disease}
+#'   \item{Condition}{condition/sequelae}
+#'   \item{Mid}{Mean disability weight}
+#'   \item{Low}{Low end of 95% uncertainty interval of disability weight}
+#'   \item{High}{High end of 95% uncertainty interval of disability weight}
+#'   \item{Source}{Source for disbaility weight values}
+#' }
+#' @source {Global, regional, and national incidence, prevalence, and years lived
+#' with disability for 354 diseases and injuries for 195 countries, 1990–2017:
+#' a systematic analysis for the Global Burden of Disease Study 2017}
+#' @source \url{http://ghdx.healthdata.org/record/global-burden-disease-study-2017-gbd-2017-disability-weights}
+"data.disabilityWeights"
+
 
 
 #' Disability weights for Pneumococcus (Pneumococcal conjugate vaccine)
@@ -494,7 +497,6 @@
 #'   \item{GBD_2015_mean}{Mean disability weight}
 #' }
 #' @source {General Guidance for DALYs calculation VIMC with input from DOVE 2017-11-24 11:03:46}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.PCV_DALY"
 
 
@@ -511,7 +513,6 @@
 #'   \item{GBD_2015_mean}{Mean disability weight}
 #' }
 #' @source {General Guidance for DALYs calculation VIMC with input from DOVE 2017-11-24 11:03:46}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.Rota_DALY"
 
 
@@ -528,7 +529,6 @@
 #'   \item{GBD_2015_mean}{Mean disability weight}
 #' }
 #' @source {General Guidance for DALYs calculation VIMC with input from DOVE 2017-11-24 11:03:46}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.Hib_DALY"
 
 
@@ -547,7 +547,6 @@
 #'   \item{Meas1}{Measles target age in weeks}
 #' }
 #' @source \url{www.who.int/immunization/monitoring_surveillance/data/schedule_data.xls}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.vaccine_schedules"
 
 
@@ -575,7 +574,6 @@
 #'   of 0.10 [0.07 - 0.14] or 10,000 [7,000 - 14,000] per 100,000 per year <5yrs.  Severe incidence rates
 #'   derived from Fischer-Walker (see source for severe RVGE incidence), were then subtracted to give non-severe
 #'   RVGE incidence.}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.rotavirus_nonsevere_RVGE_cases"
 
 
@@ -603,7 +601,6 @@
 #' (Lanata C. et al, Global Causes of Diarrheal Disease Mortality in Children <5 Years of Age: A Systematic Review.
 #' PLOS One. September 2013, Volume 8, Issue 9, e72788).  The uncertainty range only reflects uncertainty in the
 #' incidence of diarrhoea episodes.}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.rotavirus_severe_RVGE_cases"
 
 
@@ -624,7 +621,6 @@
 #'   \item{High}{high}
 #' }
 #' @source {Assume 1 visit for every 2 non-severe cases}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.rotavirus_nonsevere_RVGE_visits"
 
 
@@ -646,7 +642,6 @@
 #' }
 #' @source {Clark A et al, unpublished update of the IHME/MCEE/WHOCDC estimates. Median/Min/Max 2015 estimates
 #' were used or the estimate for the most recent pre-vax year (using WUENIC 15th July 2017). }
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.rotavirus_severe_RVGE_visits"
 
 
@@ -667,7 +662,6 @@
 #'   \item{High}{high}
 #' }
 #' @source {See Clark et al, TRIVAC, Vaccine, Appendix}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.rotavirus_severe_RVGE_hosps"
 
 
@@ -688,7 +682,6 @@
 #'   \item{High}{high}
 #' }
 #' @source {See Clark et al, TRIVAC, Vaccine, Appendix}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.rotavirus_severe_RVGE_deaths"
 
 
@@ -712,7 +705,6 @@
 #' Medians of available country datasets within countries were used. For countries without data,
 #' the median for all datasets in the same WHO region was used. This was a better indicator of incidence
 #'  than U5MR quintile e.g. WPRO has uniquely high incidence.}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.rotavirus_intussusception_cases"
 
 
@@ -736,7 +728,6 @@
 #' Medians of available country datasets within countries were used. For countries without data,
 #' the median for all datasets in the same WHO region was used. This was a better indicator of incidence
 #'  than U5MR quintile e.g. WPRO has uniquely high incidence.}
-# @source \url{https://gco.iarc.fr/today/online-analysis-table}
 "data.rotavirus_intussusception_hosps"
 
 
