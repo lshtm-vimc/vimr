@@ -4,7 +4,7 @@
 \name{data.disabilityWeights}
 \alias{data.disabilityWeights}
 \title{Disability weights for RV, HPV, Hib and Sp}
-\format{An object of class \code{data.frame} with 19 rows and 7 columns.}
+\format{An object of class \code{data.table} (inherits from \code{data.frame}) with 19 rows and 7 columns.}
 \source{
 {Global, regional, and national incidence, prevalence, and years lived
 with disability for 354 diseases and injuries for 195 countries, 1990–2017:
