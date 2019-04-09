@@ -15,6 +15,10 @@ RoxygenNote: 6.1.1
 VignetteBuilder: knitr
 Imports: 
     data.table,
+    tidyverse,
+    doParallel,
     foreach,
+    stringr,
+    magrittr,
     knitr,
     rmarkdown
