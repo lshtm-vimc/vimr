@@ -2,7 +2,17 @@
 # Functions
 ################################################################################
 
-# Estimate vaccination impact and generate disease burden estimates
+
+#' Estimate vaccination impact and generate disease burden estimates
+#'
+#' @param vaccineCoverageFile
+#' @param diseaseBurdenTemplateFile
+#' @param plots
+#'
+#' @return
+#' @export
+#'
+#' @examples
 EstimateVaccineImpact <- function (vaccineCoverageFile,
                                    diseaseBurdenTemplateFile,
                                    plots = FALSE)
@@ -31,8 +41,17 @@ EstimateVaccineImpact <- function (vaccineCoverageFile,
 } # end of function: EstimateVaccineImpact
 
 
-# Generate cohorts file based on vaccine coverage and disease burden template
-# files (VIMC format)
+#' Generate cohorts file based on vaccine coverage and disease burden template
+#' files (VIMC format)
+#'
+#' @param vaccine
+#' @param vaccineCoverageFile
+#' @param diseaseBurdenFile
+#'
+#' @return
+#' @export
+#'
+#' @examples
 SetupCohorts <- function (vaccine, vaccineCoverageFile, diseaseBurdenFile) {
 
   ##############################################################################
@@ -89,7 +108,14 @@ SetupCohorts <- function (vaccine, vaccineCoverageFile, diseaseBurdenFile) {
 }  # end of function: SetupCohorts
 
 
-# Run a single cohort
+#' Run a single cohort
+#'
+#' @param cohort
+#'
+#' @return
+#' @export
+#'
+#' @examples
 RunSingleCohort <- function (cohort) {
 
   # identify the corresponding disease burden file
@@ -185,7 +211,15 @@ RunSingleCohort <- function (cohort) {
 } # end of function: RunSingleCohort
 
 
-# update disease burden estimates to the timeline specific to this cohort
+
+#' Update disease burden estimates to the timeline specific to this cohort
+#'
+#' @param diseaseBurden
+#'
+#' @return
+#' @export
+#'
+#' @examples
 AdjustDiseaseBurden <- function (diseaseBurden) {
 
   # get reference year to adjust disease burden estimates for Hib, PCV and Rota
@@ -263,9 +297,15 @@ computeYLDs <- function (diseaseBurden) {
 } # end of function: computeYLDs
 
 
-# Save disease burden estimates in
-#  (i) full form and
-# (ii) streamlined form for VIMC
+#' Save disease burden estimates in full and streamlined VIMC format
+#'
+#' @param diseaseBurdenEstimates
+#' @param diseaseBurdenTemplateFile
+#'
+#' @return
+#' @export
+#'
+#' @examples
 SaveDieaseBurdenEstimates <- function (diseaseBurdenEstimates,
                                        diseaseBurdenTemplateFile) {
 
@@ -315,7 +355,17 @@ SaveDieaseBurdenEstimates <- function (diseaseBurdenEstimates,
 } # end of function: SaveDieaseBurdenEstimates
 
 
-# plot vaccine coverage and disease burden estimates
+
+#' Plot vaccine coverage and disease burden estimates
+#'
+#' @param vaccineCoverageFile
+#' @param diseaseBurdenTemplateFile
+#' @param diseaseBurdenEstimatesFile
+#'
+#' @return
+#' @export
+#'
+#' @examples
 PlotVaccineImpact_vimc <- function (vaccineCoverageFile = NULL,
                                     diseaseBurdenTemplateFile,
                                     diseaseBurdenEstimatesFile = NULL) {
