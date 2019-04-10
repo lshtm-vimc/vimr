@@ -2,7 +2,6 @@
 # Functions
 ################################################################################
 
-
 #' Estimate vaccination impact and generate disease burden estimates
 #'
 #' @param vaccineCoverageFile
@@ -50,6 +49,7 @@ EstimateVaccineImpact <- function (vaccineCoverageFile,
 #'
 #' @return
 #' @export
+#' @import data.table
 #'
 #' @examples
 SetupCohorts <- function (vaccine, vaccineCoverageFile, diseaseBurdenFile) {
@@ -212,7 +212,7 @@ RunSingleCohort <- function (cohort) {
 
 
 
-#' Update disease burden estimates to the timeline specific to this cohort
+#' Update disease burden estimates to the timeline specific to a given cohort
 #'
 #' @param diseaseBurden
 #'
