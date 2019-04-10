@@ -37,7 +37,7 @@ Please see below for examples of vaccine impact modelling for each of the vaccin
 
 
 ### Reference manual
-Refer to the reference manual 'vimr.pdf' for information on the datasets and functions included in this package. 
+Refer to the reference manual 'univacr.pdf' for information on the datasets and functions included in this package. 
 
 ```{r echo=T, eval=F}
 # load package

@@ -4,7 +4,8 @@
 
 # Estimate vaccination impact and generate disease burden estimates
 EstimateVaccineImpact <- function (vaccineCoverageFile,
-                                   diseaseBurdenTemplateFile)
+                                   diseaseBurdenTemplateFile,
+                                   plots = FALSE)
 {
   # set up cohorts
   cohorts <- SetupCohorts (vaccineCoverageFile = vaccineCoverageFile,
@@ -21,6 +22,11 @@ EstimateVaccineImpact <- function (vaccineCoverageFile,
 
   # save disease burden estimates in full form and streamlined form for VIMC
   SaveDieaseBurdenEstimates (diseaseBurdenEstimates, diseaseBurdenTemplateFile)
+
+  # generate plots if requested
+  if (plots){
+    PlotVaccineImpact_vimc (vaccineCoverageFile, diseaseBurdenTemplateFile)
+  }
 
 } # end of function: EstimateVaccineImpact
 
@@ -264,9 +270,9 @@ SaveDieaseBurdenEstimates <- function (diseaseBurdenEstimates,
                                        diseaseBurdenTemplateFile) {
 
   # set filenames for disease burden estimates
-  diseaseBurdenFile_full = sub ("template", "estimates-full",
+  diseaseBurdenFile_full <- sub ("template", "estimates-full",
                                 diseaseBurdenTemplateFile, fixed=T)
-  diseaseBurdenFile_vimc = sub ("template", "estimates-vimc",
+  diseaseBurdenFile_vimc <- sub ("template", "estimates-vimc",
                                 diseaseBurdenTemplateFile, fixed=T)
 
   # Save disease burden estimates in full form
@@ -308,3 +314,78 @@ SaveDieaseBurdenEstimates <- function (diseaseBurdenEstimates,
 
 } # end of function: SaveDieaseBurdenEstimates
 
+
+# plot vaccine coverage and disease burden estimates
+PlotVaccineImpact_vimc <- function (vaccineCoverageFile = NULL,
+                                    diseaseBurdenTemplateFile,
+                                    diseaseBurdenEstimatesFile = NULL) {
+
+  # filename for disease burden estimates
+  if (is.null (diseaseBurdenEstimatesFile)) {
+    diseaseBurdenFile_vimc <- str_replace (diseaseBurdenTemplateFile,
+                                           "template",
+                                           "estimates-vimc")
+  } else {
+    diseaseBurdenFile_vimc <- diseaseBurdenEstimatesFile
+  }
+
+  # filename for plots
+  diseaseBurdenPlots_vimc <- str_replace_all (diseaseBurdenFile_vimc,
+                                              c("estimates-vimc" = "plots-vimc",
+                                                "csv"            = "pdf"))
+
+  # read in disease burden estimates
+  diseaseBurdenEstimates <- fread (diseaseBurdenFile_vimc,
+                                   sep = ",",
+                                   header=TRUE)
+
+  # open plot file
+  pdf (diseaseBurdenPlots_vimc)
+
+  # determine vaccine coverage scenario and plot vaccine coverage
+  if (is.null(vaccineCoverageFile)) {
+    scenario <- ""
+  } else {
+    # read in vaccine coverage
+    vaccineCoverage <- fread (vaccineCoverageFile,
+                              sep = ",",
+                              header=TRUE)
+
+    # determine vaccine coverage scenario
+    scenario <- unique (vaccineCoverage$scenario)
+
+    # plot vaccine coverage
+    print (
+      ggplot (data=vaccineCoverage,
+              aes (x=year)) +
+        geom_point (aes (y=coverage)) +
+        facet_wrap (. ~ country) +
+        labs (title=scenario,
+              x="calendar year",
+              y="vaccine coverage")
+    )
+  }
+
+  # set plot scenario title
+  scenario_title <- str_c (unique(diseaseBurdenEstimates$disease),
+                           scenario,
+                           sep="  ")
+
+  # plot disease burden -- cases, deaths, dalys
+  for (burden_type in c("cohort_size", "cases", "deaths", "dalys")) {
+
+    print (
+      ggplot (data=diseaseBurdenEstimates,
+              aes (x=year)) +
+        geom_point (aes (y=get(burden_type), col=age), alpha=0.75) +
+        facet_wrap (. ~ country_name) +
+        labs (title=scenario_title,
+              x="calendar year",
+              y=burden_type)
+    )
+  }
+
+  # close plot file
+  dev.off ()
+
+} # end of function: PlotVaccineImpact_vimc
