@@ -20,14 +20,22 @@ EstimateVaccineImpact <- function (vaccineCoverageFile,
   cohorts <- SetupCohorts (vaccineCoverageFile = vaccineCoverageFile,
                            diseaseBurdenFile   = diseaseBurdenTemplateFile)
 
-  # estimate disease burden
-  diseaseBurdenEstimates <- foreach (i=1:nrow(cohorts),
-  # diseaseBurdenEstimates <- foreach (i=1:3,
-                                     .combine = rbind) %do% {
+  # register parallelisation
+  cl <- makeCluster (detectCores())
+  registerDoParallel (cl)
 
-    # estimate disease burden -- one cohort at a time
-    RunSingleCohort (cohorts[i, ])
-  }
+  # estimate disease burden
+  diseaseBurdenEstimates <-
+    foreach (i=1:nrow(cohorts),
+             .combine = rbind,
+             .packages=c('vimr', 'stringr', 'tidyverse')) %dopar% {
+
+               # estimate disease burden -- one cohort at a time
+               RunSingleCohort (cohorts[i, ])
+               }
+
+  # stop parallelisation
+  stopCluster (cl)
 
   # save disease burden estimates in full form and streamlined form for VIMC
   SaveDieaseBurdenEstimates (diseaseBurdenEstimates, diseaseBurdenTemplateFile)
