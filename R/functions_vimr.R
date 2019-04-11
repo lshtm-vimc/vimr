@@ -126,13 +126,15 @@ SetupCohorts <- function (vaccine, vaccineCoverageFile, diseaseBurdenFile) {
 #' @examples
 RunSingleCohort <- function (cohort) {
 
+  # identify vaccine preventable disease
+  # specified by vaccine name -- (Hib/PCV/Rota)
+  vpd <- unique (cohort$vaccine)
+  if (vpd == "Hib3") {
+    vpd <- "Hib"
+  }
+
   # identify the corresponding disease burden file
-  # data.diseaseBurden <- eval (as.name (str_c ("data.",
-  #                                             unique (cohort$vaccine),
-  #                                             ".diseaseBurden")))
-  data.diseaseBurden <- get (str_c ("data.",
-                                    unique (cohort$vaccine),
-                                    ".diseaseBurden"))
+  data.diseaseBurden <- get (str_c ("data.", vpd, ".diseaseBurden"))
   setDT (data.diseaseBurden)
 
   # extract disease burden specific to this country & cohort's start and end ages
