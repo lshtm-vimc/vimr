@@ -127,11 +127,13 @@ SetupCohorts <- function (vaccine, vaccineCoverageFile, diseaseBurdenFile) {
 RunSingleCohort <- function (cohort) {
 
   # identify vaccine preventable disease
-  # specified by vaccine name -- (Hib/PCV/Rota)
+  # specified by vaccine name -- Hib(Hib3) / PCV(PCV3) / Rota
   vpd <- unique (cohort$vaccine)
   if (vpd == "Hib3") {
     vpd <- "Hib"
-  }
+  } else if (vpd == "PCV3") {
+      vpd <- "PCV"
+    }
 
   # identify the corresponding disease burden file
   data.diseaseBurden <- get (str_c ("data.", vpd, ".diseaseBurden"))
