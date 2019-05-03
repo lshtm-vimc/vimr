@@ -178,7 +178,7 @@ RunSingleCohort <- function (cohort) {
     diseaseBurden$remainingYearsLife [i] <-
       filter (data.remainingyearsoflife,
               (country_code    == diseaseBurden [i, country_code]) &
-                (year %/% 5    == diseaseBurden[i, year] %/% 5) &
+                (year %/% 5    == diseaseBurden [i, year] %/% 5) &
                 (age_from      <= diseaseBurden [i, age]) &
                 (age_to        >= diseaseBurden [i, age])
               )$value
